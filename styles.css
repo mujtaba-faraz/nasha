@@ -97,6 +97,7 @@ input::-webkit-input-placeholder {
   max-width: 800px;
   justify-content: center;
   width: 350px;
+  align-items: center;
 }
 .offer1 {
   display: flex;
@@ -236,7 +237,7 @@ input::-webkit-input-placeholder {
 }
 @media (max-width: 767px) {
   .header div {
-    width: 95%;
+    width: 92%;
   }
   .frontpagebutton input {
     width: 85%;
@@ -247,19 +248,22 @@ input::-webkit-input-placeholder {
     font-size: 18px;
   }
   .signs .signsdetails {
-    width: 85%;
+    width: 90%;
   }
   .header h1 {
-    margin: 100px 0px 20px 0px;
+    margin: 100px 5px 22px 5px;
   }
   .smallblog {
     width: 90%;
-    margin: auto;
+    margin: 40px auto 0px auto;
   }
   .tags {
     margin: 30px auto 0px auto;
-    width: 95%;
-    padding-left: 10px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .offer {
+    width: 90%;
   }
 }
 @media (max-width: 500px) {
