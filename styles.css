@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  src: url(Fonts/FontsFree-Net-Proxima-Nova-Soft-W03-Regular.ttf);
+  font-family: proxima;
+}
+.header {
+  max-width: 800px;
+  text-align: center;
+  margin: 82px auto 0px auto;
+}
+.header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #3b4246;
+  margin-bottom: 25px;
+}
+.header div {
+  background-color: #e3f0ff;
+  width: 500px;
+  border-radius: 5px;
+  color: black;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #bce8f1;
+}
+.header div p {
+  font-family: proxima;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  padding: 10px;
+}
+.maincontent {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.frontpagebutton {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frontpagebutton input {
+  height: 45px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1.4px solid black;
+  margin: 0px 0px 28px 0px;
+  display: flex;
+  padding-left: 15px;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.frontpagebutton input:focus {
+  border: 1.4px solid rgb(151, 151, 255);
+}
+.mainbutton {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 600px;
+  font-size: 21px;
+  letter-spacing: 0.1px;
+  font-weight: bold;
+  background-color: #ffa400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0px 0px 2px 0px #333;
+  border: 1px solid #000;
+}
+.mainbutton:hover {
+  background-color: rgb(250, 148, 0);
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto 15px auto;
+  max-width: 800px;
+  justify-content: center;
+  width: 350px;
+}
+.offer1 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 800px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.offer1 p {
+  font-family: proxima;
+  text-align: center;
+  font-size: 25px;
+}
+.offer1 p:first-child {
+  margin-right: 25px;
+}
+.offer p {
+  font-family: proxima;
+  text-align: center;
+  font-size: 25px;
+}
+.offer p:first-child {
+  margin-right: 25px;
+}
+.callnow {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.signs p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.signs .signsdetails {
+  outline: 1px solid black;
+  width: 500px;
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 2px;
+}
+.signsdetails div {
+  width: 50%;
+  padding: 25px 0px 25px 0px;
+}
+.signsdetails div:last-child {
+  background-color: #fefcec;
+}
+.signsdetails div:first-child {
+  border-right: 1px solid black;
+}
+.signsdetails div p {
+  font-size: 18px;
+  margin: 0px 0px 35px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.signsdetails div p:last-child {
+  margin-bottom: 0px;
+}
+.signsdetails div:last-child p {
+  letter-spacing: 1.2px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.tags div {
+  background-color: rgb(0, 142, 220);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding: 0px 24px 0px 24px;
+  margin: 0px 20px 22px 0px;
+  letter-spacing: 0.2px;
+}
+.smallblog {
+  font-family: proxima;
+  margin-top: 40px;
+}
+.smallblog p:first-child {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.smallblog p:last-child {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.offer div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer div:first-child p:first-child {
+  text-decoration: line-through;
+  color: red;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.offer div:first-child p:last-child {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+  font-size: 50px;
+}
+.offer div img {
+  width: 80px;
+}
+.offer:first-of-type {
+  flex-direction: row;
+}
+.offer div:last-child {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 20px 0px;
+}
+@media (max-width: 767px) {
+  .header div {
+    width: 95%;
+  }
+  .frontpagebutton input {
+    width: 85%;
+    margin: 0px 0px 20px 0px;
+  }
+  .mainbutton {
+    width: 85%;
+    font-size: 18px;
+  }
+  .signs .signsdetails {
+    width: 85%;
+  }
+  .header h1 {
+    margin: 100px 0px 20px 0px;
+  }
+  .smallblog {
+    width: 90%;
+    margin: auto;
+  }
+  .tags {
+    margin: 30px auto 0px auto;
+    width: 95%;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .signs p {
+    font-size: 6vw;
+  }
+}
+@media (max-width: 400px) {
+  .offer div:last-child p {
+    font-size: 6vw;
+  }
+}
