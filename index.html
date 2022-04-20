@@ -20,14 +20,12 @@
           </p>
         </div>
       </div>
-      <div class="offer1">
-        <p>Limited time offer</p>
-        <p id="demo"></p>
-        <!-- <p>
+      <!-- <div class="offer1">
+        <p>
           get back your lost motivation, confidence & respect between your loved
           one's
-        </p> -->
-      </div>
+        </p>
+      </div> -->
     </header>
     <main class="maincontent">
       <div>
@@ -40,7 +38,14 @@
             type="tel"
             required
           />
-          <button class="mainbutton">Ready to Transform</button>
+          <button
+            class="whatsapp"
+            onclick="window.location.href = 'https://wa.me/7525925555?text=Hi%20There!';"
+            class="mainbutton"
+          >
+            Ready to Transform
+            <img src="https://trickuweb.com/whatsapp.png" alt="" />
+          </button>
         </form>
       </div>
       <div class="smallblog">
@@ -91,21 +96,26 @@
         <div>Marijuana</div>
         <div>Brown Sugar</div>
       </div>
-      <div class="offer">
-        <div>
-          <p>&#x20B9 2000</p>
-          <p>&#x20B9 500</p>
-        </div>
-        <div>
-          <p>Limited time offer</p>
-          <p id="demo2"></p>
-          <!-- <p>
-          get back your lost motivation, confidence & respect between your loved
-          one's
-        </p> -->
-        </div>
+      <div>
+        <form class="frontpagebutton" action="">
+          <input
+            class="removee"
+            name="phonenumber"
+            maxlength="10"
+            placeholder="Your Phone Number"
+            type="tel"
+            required
+          />
+          <button
+            class="whatsapp"
+            onclick="window.location.href = 'https://wa.me/7525925555?text=Hi%20There!';"
+            class="mainbutton"
+          >
+            Ready to Transform
+            <img src="https://trickuweb.com/whatsapp.png" alt="" />
+          </button>
+        </form>
       </div>
-      <button class="mainbutton">Ready to Transform</button>
       <div class="signs">
         <p>मादक पदार्थ के कुछ सामान्य लक्षण</p>
         <div class="signsdetails">
@@ -127,6 +137,54 @@
             <p>रुचि में कमी</p>
             <p>ऊर्जा का अभाव</p>
           </div>
+        </div>
+      </div>
+      <div class="qnasection">
+        <div class="qna">
+          <p class="question">How to list your channel on Mediencer?</p>
+          <p class="answer">
+            To list your channel on Mediencer you just have to put some common
+            details of your YouTube channel on
+            <a target="blank6" href="https://mediencer.com/addchannel"
+              >this page</a
+            >
+            and if your channel got approved from our end you can share your
+            listing URL to the potential buyers.
+          </p>
+        </div>
+        <div class="qna">
+          <p class="question">At what price you should sell your channel?</p>
+          <p class="answer">
+            Your channel's value depends on various factors like your country,
+            content language, average views, growth, revenue, monetization
+            status and many more but don't worry to know your channel's best
+            price from our experts <a href="#aboutmescroll">click here</a>.
+          </p>
+        </div>
+        <div class="qna">
+          <p class="question">
+            How to know if someone wants to purchase your channel?
+          </p>
+          <p class="answer">
+            If anyone wants to purchase your account and made a payment for your
+            channel you will get a notification on your email and we will
+            connect with you for further procedure on phone number number that
+            you have provided.
+          </p>
+        </div>
+        <div class="qna">
+          <p class="question">
+            How to buy a YouTube channel through Mediencer?
+          </p>
+          <p class="answer">
+            If you want to buy a YouTube channel go to the channel details by
+            clicking view details of desired channel and then you will see a
+            green save to cart button add the channel to your cart and then
+            click proceed to pay and then a QR code will popup on your screen
+            scan the QR code and enter the amount and make payment after the
+            payment is completed you will recieve a notification on your email
+            and we will connect with you on the phone number you have provided.
+          </p>
         </div>
       </div>
     </main>
@@ -179,6 +237,31 @@
           document.getElementById("demo2").innerHTML = "EXPIRED";
         }
       }, 1000);
+    </script>
+
+    <script>
+      function gotowhatsapp() {
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+        var email = document.getElementById("email").value;
+        var service = document.getElementById("service").value;
+
+        var url =
+          "https://wa.me/918789529215?text=" +
+          "Name: " +
+          name +
+          "%0a" +
+          "Phone: " +
+          phone +
+          "%0a" +
+          "Email: " +
+          email +
+          "%0a" +
+          "Service: " +
+          service;
+
+        window.open(url, "_blank").focus();
+      }
     </script>
   </body>
 </html>

@@ -12,7 +12,7 @@
 .header {
   max-width: 800px;
   text-align: center;
-  margin: 82px auto 0px auto;
+  margin: 90px auto 0px auto;
 }
 .header h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +20,7 @@
   font-size: 2.2rem;
   color: #3b4246;
   margin-bottom: 25px;
+  letter-spacing: 0.2px;
 }
 .header div {
   background-color: #e3f0ff;
@@ -67,28 +68,6 @@ input::-webkit-input-placeholder {
 }
 .frontpagebutton input:focus {
   border: 1.4px solid rgb(151, 151, 255);
-}
-.mainbutton {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 600px;
-  font-size: 21px;
-  letter-spacing: 0.1px;
-  font-weight: bold;
-  background-color: #ffa400;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-shadow: 0px 0px 2px 0px #333;
-  border: 1px solid #000;
-}
-.mainbutton:hover {
-  background-color: rgb(250, 148, 0);
 }
 .offer {
   display: flex;
@@ -192,7 +171,7 @@ input::-webkit-input-placeholder {
 }
 .smallblog {
   font-family: proxima;
-  margin-top: 40px;
+  margin: 40px auto 0px auto;
 }
 .smallblog p:first-child {
   font-size: 18px;
@@ -235,6 +214,61 @@ input::-webkit-input-placeholder {
   flex-direction: row;
   margin: 20px 0px 20px 0px;
 }
+.whatsapp {
+  margin: 0px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 600px;
+  font-size: 21px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  background-color: #ffa400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0px 0px 2px 0px #333;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+.whatsapp img {
+  width: 35px;
+  margin-left: 22px;
+}
+.whatsapp:hover {
+  background-color: rgb(250, 148, 0);
+}
+.qnasection {
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  display: flex;
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+}
+.qna .question {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  letter-spacing: 0.2px;
+  word-spacing: 0.2px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 17.5px;
+  color: rgb(255, 102, 0);
+}
+.answer {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  letter-spacing: 0.6px;
+  word-spacing: 0.6px;
+  line-height: 22px;
+  font-size: 16.2px;
+}
 @media (max-width: 767px) {
   .header div {
     width: 92%;
@@ -243,7 +277,7 @@ input::-webkit-input-placeholder {
     width: 85%;
     margin: 0px 0px 20px 0px;
   }
-  .mainbutton {
+  .whatsapp {
     width: 85%;
     font-size: 18px;
   }
@@ -255,7 +289,6 @@ input::-webkit-input-placeholder {
   }
   .smallblog {
     width: 90%;
-    margin: 40px auto 0px auto;
   }
   .tags {
     margin: 30px auto 0px auto;
