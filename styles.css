@@ -27,7 +27,7 @@
   width: 500px;
   border-radius: 5px;
   color: black;
-  margin: 0px auto 40px auto;
+  margin: 0px auto 25px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,7 +92,7 @@ input::-webkit-input-placeholder {
   font-size: 25px;
 }
 .offer1 p:first-child {
-  margin-right: 25px;
+  margin-bottom: 20px;
 }
 .offer p {
   font-family: proxima;
@@ -176,13 +176,13 @@ input::-webkit-input-placeholder {
 .smallblog p:first-child {
   font-size: 18px;
   letter-spacing: 0.3px;
-  line-height: 32px;
+  line-height: 31px;
   margin-bottom: 20px;
   text-align: justify;
 }
 .smallblog p:last-child {
   font-size: 21px;
-  line-height: 30px;
+  line-height: 29px;
   margin-bottom: 25px;
   text-align: justify;
 }
